@@ -2,7 +2,6 @@
     width: 90%;
     margin: 3rem auto;
     align-items: center;
-    border: 2px black solid;
 }
 
 #carouselExampleFade{
@@ -10,6 +9,7 @@
 }
 
 .carousel .carousel-item {
+    border: 1px black solid;
     height: 25rem;
   }
   
