@@ -1,5 +1,5 @@
 .carousel-container{
-    width: 80%;
+    width: 90%;
     margin: 3rem auto;
     align-items: center;
     border: 2px black solid;
@@ -10,7 +10,7 @@
 }
 
 .carousel .carousel-item {
-    height: 33rem;
+    height: 25rem;
   }
   
   .item img {
