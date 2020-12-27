@@ -70,8 +70,8 @@ section .section-title {
   font-weight: 700;
 }
 
-.down{
-   
+#navbar, #footer, #carousel{
+    display:block;
 }
 
 @media (max-width: 767px) {
