@@ -11,19 +11,19 @@
 }
 .movie-cards {
   margin: 2rem auto;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
 .youtube-embed-container {
   margin: 2rem auto;
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
 }
 
-ul{
+.portfolio-paragraph > ul{
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
