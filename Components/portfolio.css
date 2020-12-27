@@ -5,7 +5,7 @@
 
 .portfolio-paragraph {
   margin: auto;
-  width: 90%;
+  width: 80%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -18,7 +18,7 @@
 
 .youtube-embed-container {
   margin: 2rem auto;
-  width: 75%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }

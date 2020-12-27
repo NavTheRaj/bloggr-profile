@@ -1,3 +1,9 @@
+*{
+  font-family: 'Andika New Basic', sans-serif;
+  letter-spacing: 0.02rem;
+  line-height: 1.8rem;
+}
+
 /* Footer */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 section {
@@ -94,11 +100,10 @@ section .section-title {
   margin:auto;
 }
 
-#services{
+#services,#porfilio{
   margin-top: 4rem!important;
   width:80%;
   margin:auto;
-
 }
 
 .subtitle{
