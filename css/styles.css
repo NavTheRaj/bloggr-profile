@@ -10,9 +10,10 @@ section .section-title {
   margin-bottom: 50px;
   text-transform: uppercase;
 }
+
+
 #footer {
   background: #212529 !important;
-  position: fixed;
   left:0;
   bottom:0;
   width: 100%;
@@ -70,10 +71,13 @@ section .section-title {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 #navbar, #footer, #carousel{
     display:block;
 }
 
+=======
+>>>>>>> 52abc76290fab6dc77e0099a6bb21af6049bd1b8
 @media (max-width: 767px) {
   #footer h5 {
     padding-left: 0;
@@ -82,3 +86,4 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
+
