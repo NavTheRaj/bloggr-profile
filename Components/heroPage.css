@@ -1,0 +1,7 @@
+.carousel-container{
+    width: 80%;
+    margin: 1rem auto;
+    align-items: center;
+    border: 2px black solid;
+    height: 400px;
+}
