@@ -13,17 +13,24 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
 
-	<link rel="stylesheet" href="heroPage.css">
+    <link rel="stylesheet" href="heroPage.css" />
 
     <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="stylesheet" href="Components/heroPage.css" />
 
+    <link rel="stylesheet" href="Components/portfolio.css" />
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -34,18 +41,21 @@
       $(function () {
         $("#navbar").load("navbar.html");
         $("#footer").load("footer.html");
-		$("#carousel_main").load("Components/heroPage.html");
-		$("#services").load("Components/Services.html");
+        $("#carousel_main").load("Components/heroPage.html");
+        $("#services").load("Components/Services.html");
+        $("#portfolio").load("Components/portfolio.html");
       });
     </script>
 
     <title>Cine Tech</title>
   </head>
   <body>
-	<div id="navbar"></div>	
-	<div id="carousel_main"></div>
-	<h2 class="section-header">Services</h2>
-	<div id="services"></div> 
+    <div id="navbar"></div>
+    <div id="carousel_main"></div>
+    <h2 class="section-header">Services</h2>
+    <div id="services"></div>
+    <h2 class="section-header">Portfolio</h2>
+    <div id="portfolio"></div>
     <div id="footer"></div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -13,11 +13,22 @@
 
 
 .carousel-caption-header {    
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background : rgba(0, 0, 0, 0.35);
+    width:30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5rem;  
 }
 
 .carousel-caption-subtext {
-  background:  rgba(2, 0, 0, 0.2);
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background : rgba(0, 0, 0, 0.35);
+    color: white;
+    width:40%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+  
 }
 
