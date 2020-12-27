@@ -11,8 +11,13 @@ section .section-title {
   text-transform: uppercase;
 }
 #footer {
-  background: #212529 !important
+  background: #212529 !important;
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
 }
+
 #footer h5 {
   padding-left: 10px;
   border-left: 3px solid #eeeeee;
@@ -63,6 +68,10 @@ section .section-title {
 }
 #footer ul.quick-links li:hover a i {
   font-weight: 700;
+}
+
+.down{
+   
 }
 
 @media (max-width: 767px) {
