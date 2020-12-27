@@ -18,9 +18,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
 
+	<link rel="stylesheet" href="heroPage.css">
+
     <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="stylesheet" href="Components/heroPage.css" />
+
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -31,15 +34,18 @@
       $(function () {
         $("#navbar").load("navbar.html");
         $("#footer").load("footer.html");
-        $("#carousel_main").load("Components/heroPage.html");
+		$("#carousel_main").load("Components/heroPage.html");
+		$("#services").load("Components/Services.html");
       });
     </script>
 
     <title>Cine Tech</title>
   </head>
   <body>
-    <div id="navbar"></div>
-    <div id="carousel_main"></div>
+	<div id="navbar"></div>	
+	<div id="carousel_main"></div>
+	<h2 class="section-header">Services</h2>
+	<div id="services"></div> 
     <div id="footer"></div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

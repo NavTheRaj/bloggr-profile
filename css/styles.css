@@ -14,9 +14,12 @@ section .section-title {
 
 #footer {
   background: #212529 !important;
+  position: relative;
   left:0;
+  right:0;
   bottom:0;
   width: 100%;
+  margin-top:3rem;
 }
 
 #footer h5 {
@@ -79,4 +82,39 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
+
+
+#navbar, #footer, #carousel_main, #services{
+    display:block;
+    justify-content: center;
+}
+
+#carousel_main{
+  width:100%;
+  margin:auto;
+}
+
+#services{
+  margin-top: 4rem!important;
+  width:80%;
+  margin:auto;
+
+}
+
+.subtitle{
+  font-weight: 700;
+  font-size: x-large;
+  color:#585757;
+}
+
+.section-header{
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  margin-top:1.5rem;
+  font-size: 700;
+  font-weight: bold;
+  color: #161616;
+}
+
 
