@@ -1,0 +1,24 @@
+.protfolio-header {
+  text-align: center;
+  color: rgb(40, 14, 66);
+}
+
+.portfolio-paragraph {
+  margin: auto;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.movie-cards {
+  margin: 2rem auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.youtube-embed-container {
+  margin: 2rem auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
