@@ -1,9 +1,10 @@
 .protfolio-header {
-  text-align: center;
-  color: rgb(40, 14, 66);
+    text-align: center;
+    color: rgb(40, 14, 66);
 }
 
 .portfolio-paragraph {
+<<<<<<< HEAD
   margin: auto;
   width: 80%;
   text-align: justify;
@@ -28,3 +29,23 @@
   -webkit-columns: 2;
   -moz-columns: 2;
 }
+=======
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.youtube-embed-container {
+    margin: 2rem auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+>>>>>>> 9d6fcc5da2f0ce7ab4963d0affd7549d2c0c7615
