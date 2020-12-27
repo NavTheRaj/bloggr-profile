@@ -1,7 +1,21 @@
 .carousel-container{
-    width: 80%;
-    margin: 1rem auto;
+    width: 90%;
+    margin: 3rem auto;
     align-items: center;
     border: 2px black solid;
-    height: 400px;
 }
+
+#carouselExampleFade{
+        box-shadow: 5px 5px rgba(167, 141, 141, 0.233);
+}
+
+.carousel .carousel-item {
+    height: 25rem;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
