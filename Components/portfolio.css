@@ -1,30 +1,24 @@
 .protfolio-header {
-  text-align: center;
-  color: rgb(40, 14, 66);
+    text-align: center;
+    color: rgb(40, 14, 66);
 }
 
 .portfolio-paragraph {
-  margin: auto;
-  width: 80%;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.movie-cards {
-  margin: 2rem auto;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .youtube-embed-container {
-  margin: 2rem auto;
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
+    margin: 2rem auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
 
-ul{
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
