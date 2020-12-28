@@ -122,3 +122,18 @@ section .section-title {
   color: #161616;
 }
 
+
+
+
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid rgba(215, 203, 233, 0.28); 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+h2 span {   
+   background:rgb(255, 255, 255); 
+   padding:0 10px; 
+}
