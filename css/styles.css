@@ -90,7 +90,7 @@ section .section-title {
 }
 
 
-#navbar, #footer, #carousel_main, #services{
+#navbar, #footer, #carousel_main, #services, #portfolio{
     display:block;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ section .section-title {
   margin:auto;
 }
 
-#services,#porfilio{
+#services,#portfolio{
   margin-top: 4rem!important;
   width:80%;
   margin:auto;
@@ -120,5 +120,11 @@ section .section-title {
   font-size: 700;
   font-weight: bold;
   color: #161616;
+}
+
+.s-card{
+width:100%;
+height:15vw;
+object-fit: cover;
 }
 
