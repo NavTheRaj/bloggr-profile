@@ -116,10 +116,15 @@ section .section-title {
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  margin-top:1.5rem;
+  margin-top: 2rem!important;
+  margin: 0 auto;
   font-size: 700;
   font-weight: bold;
-  color: #161616;
+  color: #6c63ff;
+  width: 80%; 
+  text-align: center; 
+  border-bottom: 1px solid rgba(187, 186, 189, 0.548); 
+  line-height: 0.1em;
 }
 
 .s-card{
@@ -129,15 +134,15 @@ object-fit: cover;
 }
 
 
-h2 {
+/* h2 {
   width: 100%; 
   text-align: center; 
   border-bottom: 1px solid rgba(215, 203, 233, 0.28); 
   line-height: 0.1em;
   margin: 10px 0 20px; 
-} 
+}  */
 
-h2 span {   
+.section-header > span {   
    background:rgb(255, 255, 255); 
    padding:0 10px; 
 }

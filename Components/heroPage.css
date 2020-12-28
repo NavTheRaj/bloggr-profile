@@ -9,26 +9,30 @@
   top: 0;
   left: 0;
   min-height: 500px;
+  opacity: 90%;
 }
 
 
 .carousel-caption-header {    
-    background : rgba(0, 0, 0, 0.35);
+    /* background : rgba(0, 0, 0, 0.35); */
     width:30%;
     margin: auto;
     text-align: center;
     color: white;
     margin-bottom: 0.5rem;  
+    font-weight:900;
+    text-shadow: 3px 2px black;
 }
 
 .carousel-caption-subtext {
-    background : rgba(0, 0, 0, 0.35);
+    /* background : rgba(0, 0, 0, 0.35); */
     color: white;
     width:40%;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight:lighter;
     margin: auto;
     text-align: center;
+    text-shadow: 1px 2px black;
   
 }
 
