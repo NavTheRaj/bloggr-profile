@@ -90,7 +90,7 @@ section .section-title {
 }
 
 
-#navbar, #footer, #carousel_main, #services, #portfolio{
+#navbar, #footer, #carousel_main, #services, #portfolio, #gallery, #equipments{
     display:block;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ section .section-title {
   margin:auto;
 }
 
-#services,#portfolio{
+#services,#portfolio,#gallery, #equipments{
   margin-top: 4rem!important;
   width:80%;
   margin:auto;
@@ -132,15 +132,6 @@ width:100%;
 height:15vw;
 object-fit: cover;
 }
-
-
-/* h2 {
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 1px solid rgba(215, 203, 233, 0.28); 
-  line-height: 0.1em;
-  margin: 10px 0 20px; 
-}  */
 
 .section-header > span {   
    background:rgb(255, 255, 255); 
