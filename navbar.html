@@ -1,4 +1,6 @@
-<nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-light">
+<nav class="navbar navbar-expand-sm fixed-top shadow navbar-light bg-light"
+role="navigation">
+  <div class="container">
   <a class="navbar-brand" href="#">
     <img
       src="Images/logo.png"
@@ -10,19 +12,17 @@
   </a>
 
   <button
-    class="navbar-toggler"
+    class="navbar-toggler collapsed"
     type="button"
     data-toggle="collapse"
     data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
   >
     <span class="navbar-toggler-icon"></span>
+    <span class="sr-only">Toggle navigation</span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav m-auto">
+    <ul class="nav navbar-nav m-auto">
       <li class="nav-item">
         <a class="nav-link" href="#">Home</a>
       </li>
@@ -43,5 +43,6 @@
         <a class="nav-link" href="#gallery-header">Gallery</a>
       </li>
     </ul>
+  </div>
   </div>
 </nav>
