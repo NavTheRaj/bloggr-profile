@@ -1,5 +1,5 @@
-*{
-  font-family: 'Andika New Basic', sans-serif;
+* {
+  font-family: "Andika New Basic", sans-serif;
   letter-spacing: 0.02rem;
   line-height: 1.8rem;
 }
@@ -17,15 +17,14 @@ section .section-title {
   text-transform: uppercase;
 }
 
-
 #footer {
   background: #212529 !important;
   position: relative;
-  left:0;
-  right:0;
-  bottom:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
-  margin-top:3rem;
+  margin-top: 3rem;
 }
 
 #footer h5 {
@@ -89,58 +88,67 @@ section .section-title {
   }
 }
 
-
-#navbar, #footer, #carousel_main, #services, #portfolio, #gallery, #equipments{
-    display:block;
-    justify-content: center;
+#navbar,
+#footer,
+#carousel_main,
+#services,
+#portfolio,
+#gallery,
+#equipments {
+  display: block;
+  justify-content: center;
 }
 
-#carousel_main{
-  width:100%;
-  margin:auto;
+#carousel_main {
+  width: 100%;
+  margin: auto;
 }
 
-#services,#portfolio,#gallery, #equipments{
-  margin-top: 4rem!important;
-  width:80%;
-  margin:auto;
+#services,
+#portfolio,
+#gallery,
+#equipments {
+  margin-top: 4rem !important;
+  width: 80%;
+  margin: auto;
 }
 
-.subtitle{
+.subtitle {
   font-weight: 700;
   font-size: x-large;
-  color:#585757;
+  color: #585757;
 }
 
-.section-header{
+.section-header {
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  margin-top: 2rem!important;
+  margin-top: 2rem !important;
   margin: 0 auto;
   font-size: 700;
   font-weight: bold;
   color: #6c63ff;
-  width: 80%; 
-  text-align: center; 
-  border-bottom: 1px solid rgba(187, 186, 189, 0.548); 
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid rgba(187, 186, 189, 0.548);
   line-height: 0.1em;
 }
 
-.s-card{
-width:100%;
-height:15vw;
-object-fit: cover;
+.s-card {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
-.section-header > span {   
-   background:rgb(255, 255, 255); 
-   padding:0 10px; 
+.section-header > span {
+  background: rgb(255, 255, 255);
+  padding: 0 10px;
 }
 
-.color-love{
-  color:#6c63ff;
+.color-love {
+  color: #6c63ff;
 }
+
 
 /** css for navbar **/
 .nav-link{
@@ -164,7 +172,6 @@ object-fit: cover;
   font-weight: lighter; 
 
 }
-
 
 
 
