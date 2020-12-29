@@ -148,3 +148,36 @@ section .section-title {
 .color-love {
   color: #6c63ff;
 }
+<<<<<<< HEAD
+=======
+
+/** css for navbar **/
+.nav-link{
+    color : #212f3d;
+    cursor : pointer;
+    font-size: larger;
+  }
+
+  .nav-link:hover{
+      color: #6c63ff!important;
+      font-weight: bolder; 
+  }
+
+
+.navbar-toggler{
+  margin-right: 1rem;
+}
+
+.navbar-toggler:hover{
+  color: #6c1fea;
+  font-weight: lighter; 
+
+}
+
+
+
+
+
+
+
+>>>>>>> 58cf7e980f2ba91b653e7f031a544430c9cdf60c
